@@ -199,8 +199,6 @@ void execute_file(const char * filename){
     }
     code.append(buf, ifs.gcount());
     ifs.close();
-    std::cout << code << std::endl;
-    return;
     while(!endofcode && !terminated){
         cycle();
     }
