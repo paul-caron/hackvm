@@ -26,3 +26,8 @@ Once in REPL mode, the hackvm prompt should show up.
 ```bash
 HackVM> 
 ```
+
+To quit, simply type in the termination character instruction (!)
+```bash
+HackVM>!
+```
